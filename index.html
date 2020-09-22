@@ -1,59 +1,519 @@
 <!doctype html>
 <!-- If multi-language site, reconsider usage of html lang declaration here. -->
-<html lang="en"> 
-  <head>
-    <meta charset="utf-8">
-    <title>Client</title>
-  
-    <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
-    <meta name="description" lang="en" content="">
-    
-    <!-- Keywords to help with SEO go here. Note: Usage of lang tag.  -->
-    <meta name="keywords" lang="en" content="">
-    
-    <!-- View-port Basics: http://mzl.la/VYREaP -->
-    <!-- This meta tag is used for mobile device to display the page without any zooming,
-        so how much the device is able to fit on the screen is what's shown initially. 
-        Remove comments from this tag, when you want to apply media queries to the website. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <!-- To adhear no-cache for Chrome -->
-    <!-- <meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-store, no-cache" />
-    <meta http-equiv="Expires" content="0" /> -->
+<html lang="en">
 
-    <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
-    <link rel="shortcut icon" href="favicon.ico" />
+<head>
+  <meta charset="utf-8" />
+  <title>Reebok</title>
+  <meta name="description" lang="en" content="Reebok the only store for your needs from footware to good shoes" />
+  <meta name="keywords" lang="en" content="reebok, footware, shoes, running, walking,sprints" />
+  <meta name="author" content="reebok" />
+  <link rel="stylesheet" media="screen" href="assets/css/style.css" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Oswald&family=Roboto&display=swap"
+    rel="stylesheet">
+</head>
 
-    <!--font-awesome link for icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+  <!--container starts here-->
+  <div class="container">
+    <!--header starts here-->
+    <header>
+      <header class="header">
+        <div class="wrapper">
+          <div class="left">
+            <h1 class="logo search"><a href="" title="logo"><img src="assets/vendor/logo.png" alt="logo"></a></h1>
+            <div class="search-bar search">
+              <form action="#" method="POST">
+                <input type="text" placeholder="Keyword Search.." name="search" class="fa fa-search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
 
-    <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
-    <link rel="stylesheet" media="screen" href="assets/css/style.css" >
-  </head>
-  <body>
-    <!--container starts here-->
-    <div class="container">
-      <!--header starts here-->
-      <header>
-        
+            <div class="free search">
+              <span>Free Shipings & Returns &#42;</span>
+            </div>
+          </div>
+          <div class="login">
+            <a href="" title="wishlist" class="wishlist">&#42; Wishlist </a>
+            <a href="" title="login">&#9758; Login</a>
+            <a href="" title="cart">&#128722; </a>
+          </div>
+        </div>
+        <nav class="sub-header ">
+          <div class="wrapper">
+            <div id="burger">
+              <i class="fa fa-reorder" style="font-size: 30px; color: red"></i>
+            </div>
+            <div class="dropdown">
+              <span>Men &#8250;</span>
+              <ul class="dropdown-content">
+                <li>Mens</li>
+                <li><a href="" title="dropdown content">mens shoes</a></li>
+                <li><a href="" title="dropdown content">mens band</a></li>
+                <li> <a href="" title="dropdown content">mens t-shirts</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <span>Women &#8250;</span>
+              <ul class="dropdown-content">
+                <li>Women</li>
+                <li><a href="" title="dropdown content">women shoes</a></li>
+                <li> <a href="" title="dropdown content">women band</a></li>
+                <li><a href="" title="dropdown content">women t-shirts</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <span>Kids &#8250;</span>
+              <ul class="dropdown-content">
+                <li>Kids</li>
+                <li> <a href="" title="dropdown content">Kids shoes</a></li>
+                <li><a href="" title="dropdown content">Kids band</a></li>
+                <li> <a href="" title="dropdown content">Kids t-shirts</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <span>Fitness &#8250;</span>
+              <ul class="dropdown-content">
+                <li>Fitness</li>
+                <li><a href="" title="dropdown content">Fitness shoes</a></li>
+                <li> <a href="" title="dropdown content">Fitness band</a></li>
+
+              </ul>
+            </div>
+            <div class="dropdown">
+              <span>Classics &#8250;</span>
+              <ul class="dropdown-content">
+                <li>Classics</li>
+                <li><a href="" title="dropdown content"> shoes</a></li>
+                <li> <a href="" title="dropdown content"> band</a></li>
+                <li> <a href="" title="dropdown content"> t-shirts</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <span class="yellow">Outlet &#8250;</span>
+              <ul class="dropdown-content">
+                <li>Outlets</li>
+                <li> <a href="" title="dropdown content">mumbai</a></li>
+                <li><a href="" title="dropdown content">thane</a></li>
+                <li> <a href="" title="dropdown content">delhi</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <span class="yellow">Be more human &#8250;</span>
+              <ul class="dropdown-content">
+                <li>Mens</li>
+                <li> <a href="" title="dropdown content">donate to nature cause</a></li>
+
+              </ul>
+            </div>
+            <div class="dropdown explore">
+              <span>Explore &#8250;</span>
+              <ul class="dropdown-content">
+                <li>Explore</li>
+                <li> <a href="" title="dropdown content"> shoes</a></li>
+                <li> <a href="" title="dropdown content"> band</a></li>
+                <li> <a href="" title="dropdown content"> t-shirts</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+
       </header>
       <!--header ends here-->
       <!--main starts here-->
       <main>
+        <!--banner starts here-->
+        <section class="banner">
+          <div class="wrapper">
+            <img src="assets/vendor/banner.png" alt="banner">
+
+            <h2>FAST <span class="banner-span">FLEXWEAVE </span>&#8482;</h2>
+            <h4>FIGURE 8 WEAVE ENGINEERED TO PERFORM</h4>
+            <h3>A SHOE BUILT FOR SPEED RUNNING AND AGILITY.</h3>
+            <div class="banner-hyperlink">
+              <a href="" title="shop flexware">SHOP FLEXWARE</a>
+              <a href="" title="learn more">LEARN MORE</a>
+            </div>
+          </div>
+        </section>
+        <section class="subbanner wrapper">
+          <ul class="sub-banner subbanner-category">
+            <li>
+              <h3>FOOTWARE</h3>
+              <div class="sub-banner-info">
+                <div class="subbanner-img">
+                  <img src="assets/vendor/img1.png" alt="footware">
+                </div>
+                <div class="dropdown-conatainer">
+                  <div class="dropdown">
+                    <span>&#8250; Men </span>
+                    <div class="dropdown-content">
+
+                      <a href="" title="dropdown content">shoes</a>
+                      <a href="" title="dropdown content">sandles </a>
+                      <a href="" title="dropdown content">t-shirts</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <span>&#8250; Women </span>
+                    <div class="dropdown-content">
+
+                      <a href="" title="dropdown content">shoes</a>
+                      <a href="" title="dropdown content">sandles </a>
+                      <a href="" title="dropdown content">t-shirts</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <span>&#8250; Kids </span>
+                    <div class="dropdown-content">
+
+                      <a href="" title="dropdown content">shoes</a>
+                      <a href="" title="dropdown content">sandles </a>
+                      <a href="" title="dropdown content">t-shirts</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </li>
+            <li>
+              <h3>CLOTHING</h3>
+              <div class="sub-banner-info">
+                <div class="subbanner-img">
+                  <img src="assets/vendor/img1.png" alt="clothing">
+                </div>
+                <div class="dropdown-conatainer">
+                  <div class="dropdown">
+                    <span>&#8250; Men </span>
+                    <div class="dropdown-content">
+
+                      <a href="" title="dropdown content">t-shirt</a>
+                      <a href="" title="dropdown content">shorts </a>
+                      <a href="" title="dropdown content">socks</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <span>&#8250; Women </span>
+                    <div class="dropdown-content">
+
+                      <a href="" title="dropdown content">t-shirt</a>
+                      <a href="" title="dropdown content">shorts </a>
+                      <a href="" title="dropdown content">socks</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <span>&#8250; Kids </span>
+                    <div class="dropdown-content">
+
+                      <a href="" title="dropdown content">t-shirt</a>
+                      <a href="" title="dropdown content">shorts </a>
+                      <a href="" title="dropdown content">socks</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </li>
+            <li>
+              <h3>ACCESSORIES</h3>
+              <div class="sub-banner-info">
+                <div class="subbanner-img">
+                  <img src="assets/vendor/img1.png" alt="accessories">
+                </div>
+                <div class="dropdown-conatainer">
+                  <div class="dropdown">
+                    <span>&#8250; Men </span>
+                    <div class="dropdown-content">
+
+                      <a href="" title="dropdown content">gym-bag</a>
+                      <a href="" title="dropdown content">towels </a>
+                      <a href="" title="dropdown content">bands</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <span>&#8250; Women </span>
+                    <div class="dropdown-content">
+
+                      <a href="" title="dropdown content">gym-bag</a>
+                      <a href="" title="dropdown content">towels </a>
+                      <a href="" title="dropdown content">bands</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <span>&#8250; Kids </span>
+                    <div class="dropdown-content">
+
+                      <a href="" title="dropdown content">gym-bag</a>
+                      <a href="" title="dropdown content">towels </a>
+                      <a href="" title="dropdown content">bands</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </li>
+            <li>
+              <h3>SALE</h3>
+              <div class="sub-banner-info">
+                <div class="subbanner-img">
+                  <img src="assets/vendor/img1.png" alt="sale">
+                </div>
+                <div class="dropdown-conatainer">
+                  <div class="dropdown">
+                    <span>&#8250; Men </span>
+                    <div class="dropdown-content">
+
+                      <a href="" title="dropdown content">shoes</a>
+                      <a href="" title="dropdown content">sandles </a>
+                      <a href="" title="dropdown content">t-shirts</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <span>&#8250; Women </span>
+                    <div class="dropdown-content">
+
+                      <a href="" title="dropdown content">shoes</a>
+                      <a href="" title="dropdown content">sandles </a>
+                      <a href="" title="dropdown content">t-shirts</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <span>&#8250; Kids </span>
+                    <div class="dropdown-content">
+
+                      <a href="" title="dropdown content">shoes</a>
+                      <a href="" title="dropdown content">sandles </a>
+                      <a href="" title="dropdown content">t-shirts</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+        <!--banner ends here-->
+
+        <!-- fitness starts here -->
+        <div class="fitness">
+          <img src="assets/vendor/banner.png" alt="fitness and training">
+          <div class="wrapper">
+            <h3>FITNESS & TRAINING</h3>
+
+          </div>
+        </div>
+        <!-- fitness ends here -->
+        <!-- world-of-reebok starts here -->
+        <section class="world-of-reebok">
+          <div class="wrapper">
+            <h3>THE WORLD OF REEBOK</h3>
+
+            <ul>
+              <li class="world-of-reebok-card">
+                <img src="assets/vendor/img1.png" alt="world-of-reebok-card-image">
+                <h5>Be More Human</h5>
+              </li>
+              <li class="world-of-reebok-card">
+                <img src="assets/vendor/img1.png" alt="world-of-reebok-card-image">
+                <h5>REEBOK CLASSIC</h5>
+              </li>
+              <li class="world-of-reebok-card">
+                <img src="assets/vendor/img1.png" alt="world-of-reebok-card-image">
+                <h5>Reebok Running Squad</h5>
+              </li>
+              <li class="world-of-reebok-card">
+                <img src="assets/vendor/img1.png" alt="world-of-reebok-card-image">
+                <h5>Reebok Online Outlet</h5>
+              </li>
+            </ul>
+          </div>
+
+        </section>
+        <!-- world-of-reebok ends here -->
+
+
+
+
 
       </main>
       <!--main ends here-->
 
       <!--footer starts here-->
-      <footer>      
+      <footer>
+        <div class="footer">
+          <div class="footer-wrapper wrapper">
+            <ul>
+              <li><a href="" title="free shiping">Free Shipping + free 30-day returns</a></li>
+              <li class="border"><a href="" title="call-us">Call Us Between 8AM to 8PM : 1-800-120-4400</a></li>
+              <li><a href="" title="email">Email us : customer.care@reebok.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="sub-footer">
+          <ul class="wrapper">
+            <li class="gender">
+              <ul>
+                <li>
+                  <h5> MEN</h5>
+                </li>
+                <li>
+                  <p><a href="">Footware</a></p>
+                </li>
+                <li>
+                  <p><a href="">Clothing</a></p>
+                </li>
+                <li>
+                  <p><a href="">Accessories</a></p>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <h5> WOMEN</h5>
+                </li>
+                <li>
+                  <p><a href="">Footware</a></p>
+                </li>
+                <li>
+                  <p><a href="">Clothing</a></p>
+                </li>
+                <li>
+                  <p><a href="">Accessories</a></p>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <h5> KIDS</h5>
+                </li>
+                <li>
+                  <p><a href="">Footware</a></p>
+                </li>
+
+                <li>
+                  <p><a href="">Accessories</a></p>
+                </li>
+              </ul>
+
+            </li>
+            <li class="fitness">
+              <ul>
+                <li>
+                  <h5>FITNESS</h5>
+                </li>
+                <li>
+                  <p><a href="">Training</a></p>
+                </li>
+                <li>
+                  <p><a href="">Running</a></p>
+                </li>
+                <li>
+                  <p><a href="">Walking</a></p>
+                </li>
+                <li>
+                  <p><a href="">Crossfit</a></p>
+                </li>
+                <li>
+                  <p><a href="">Studio</a></p>
+                </li>
+                <li>
+                  <p><a href="">Yoga</a></p>
+                </li>
+                <li>
+                  <p><a href="">Dance</a></p>
+                </li>
+              </ul>
+            </li>
+            <li class="quick-shop">
+              <ul>
+                <li>
+                  <h5>QUICK SHOP</h5>
+                </li>
+                <li>
+                  <p><a href="">Zpump fusion</a></p>
+                </li>
+                <li>
+                  <p><a href="">Classics</a></p>
+                </li>
+                <li>
+                  <p><a href="">Offers</a></p>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <h5>NEW ARRIVALS</h5>
+                </li>
+                <li>
+                  <p><a href="">New Arrivals</a></p>
+                </li>
+              </ul>
+            </li>
+            <li class="customer-service">
+              <ul>
+                <li>
+                  <h5>CUSTOMER SERVICE</h5>
+                </li>
+                <li>
+                  <p><a href="">contact us</a></p>
+                </li>
+                <li>
+                  <p><a href="">My Account</a></p>
+                </li>
+                <li>
+                  <p><a href="">Privacy Policy</a></p>
+                </li>
+                <li>
+                  <p><a href="">Terms and condidtion</a></p>
+                </li>
+              </ul>
+            </li>
+            <li class="fb-share">
+              <a href="" title="facebook"><img src="assets/vendor/img1.png" alt="facebook-share"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="sign-up">
+          <div class="wrapper">
+            <p><span>SIGN UP</span> FOR EXCLUSIVE SALES AND PRODUCT NEWS</p>
+            <button type="button">Sign Up &#8250;</button>
+          </div>
+
+
+        </div>
+        <div class="payment">
+          <ul class=" wrapper">
+            <li><a href="" title="payment"><img src="assets/vendor/pay.png" alt="payment"></a></li>
+            <li><a href="" title="payment"><img src="assets/vendor/pay.png" alt="payment"></a></li>
+            <li><a href="" title="payment"><img src="assets/vendor/pay.png" alt="payment"></a></li>
+            <li><a href="" title="payment"><img src="assets/vendor/pay.png" alt="payment"></a></li>
+            <li><a href="" title="payment"><img src="assets/vendor/pay.png" alt="payment"></a></li>
+            <li><a href="" title="payment"><img src="assets/vendor/pay.png" alt="payment"></a></li>
+            <li><a href="" title="payment"><img src="assets/vendor/pay.png" alt="payment"></a></li>
+            <li><a href="" title="payment"><img src="assets/vendor/pay.png" alt="payment"></a></li>
+
+          </ul>
+
+        </div>
+        <div class="copyright">
+          <div class="wrapper">
+            <p>&copy;2017 shopforreebok.com | Powered By : adi Sports (India) Pvt. Ltd.
+              <span><a href="" title="copyright"><img src="assets/vendor/pay.png" alt="copyright"></a></span></p>
+          </div>
+
+        </div>
+
 
       </footer>
       <!--footer ends here-->
 
-    </div>
-    <!--container ends here-->
-    <script src="js/vendors/jquery-1.8.3.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+  </div>
+  <!--container ends here-->
+
+</body>
+
 </html>
