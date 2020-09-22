@@ -629,15 +629,8 @@ height: 65vh;
     } 
     .header .wrapper .left .free{
       padding: 5px 0;
-      margin: 0 10px;
-      
+      margin: 0 10px;      
     }
-   
-    
-
-
-
-
     .banner{
       position: relative;
       height: 70vh;
@@ -706,32 +699,10 @@ header .free{
     padding: 15px 15px;
     margin-left: 10px;
   }
-  
-
   .world-of-reebok ul li h5{  
     margin: 20px 0px 42px 0px;
     padding-right: 20px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer .wrapper ul li{
     margin-left:15px ;
   }
@@ -767,8 +738,6 @@ header .free{
 }
 @media screen and (max-width: 767px){
    /* HEADER STARTS HERE */
-
-
 .header .wrapper{
   height: auto;
   margin: 0;
@@ -893,18 +862,6 @@ header .free{
 .header .sub-header .dropdown .yellow{
 color: rgb(251 218 24);
 }
-/* SUB-HEADER ENDS HERE */
-/* BANNER STARTS HERE */
-
-/* .banner{
-  position: relative;
-  height: 60vh;
-  background-color:rgb(196 199 179);
-}
-.banner img{
-  width: 100%;
-  height: 60vh;
-} */
 .banner .wrapper h2{
   position: absolute;  
   font-size: 30px;
@@ -959,8 +916,6 @@ color: rgb(251 218 24);
   border-width: 1px;
 }
 /* BANNER ENDS HERE */
-
-
   .world-of-reebok ul{
     display: flex;
     flex-wrap: wrap;
@@ -984,7 +939,6 @@ color: rgb(251 218 24);
     width: 90%;
 
   }
-
 .banner .wrapper h2{
   position: absolute;  
   
@@ -1022,12 +976,9 @@ color: rgb(251 218 24);
 }
 .banner .wrapper .banner-hyperlink a{
   position: absolute; 
-  font-size: 15px;
-  
+  font-size: 15px;  
   padding: 5px 5px;
   margin-left: 5px;
-  
-
   border-width: 1px;
 }
 .banner .wrapper .banner-hyperlink a[title *="shop"] {
@@ -1117,8 +1068,7 @@ display: none;
 }
 /* HEADER ENDS HERE */
 
-  .payment{
- 
+  .payment{ 
     padding-bottom: 60vh;
   }
 
